@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         
         app.innerHTML = "";
-        window.history.pushState({}, "", `/${page}${param ? `?id=${param}` : ""}`);
+        //window.history.pushState({}, "", `/${page}${param ? `?id=${param}` : ""}`);
         routes[page](param);
     };
     
